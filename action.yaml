@@ -6,14 +6,13 @@ branding:
 inputs:
   whom-to-greet:
     description: "Name of the person to greet"
-    type: string
     default: "World"
 
-outpus:
+outputs:
   time:
     description: "The time we greeted you"
-
-using: 'docker'
-image: 'Dockerfile'
-args:
-  - ${{ inputs.whom-to-greet }}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.whom-to-greet }}
