@@ -1,4 +1,4 @@
-name: greetings
+name: venkyvajrala_greetings
 description: "This action will greet anyone with name"
 inputs:
   whom-to-greet:
