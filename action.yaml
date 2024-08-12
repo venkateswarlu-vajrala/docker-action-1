@@ -1,0 +1,16 @@
+name: greetings
+description: "This action will greet anyone with name"
+inputs:
+  whom-to-greet:
+    description: "Name of the person to greet"
+    type: string
+    default: "World"
+
+outpus:
+  time:
+    description: "The time we greeted you"
+
+using: 'docker'
+image: 'Dockerfile'
+args:
+  - ${{ inputs.whom-to-greet }}
