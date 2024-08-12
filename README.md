@@ -16,6 +16,8 @@ The time we greeted you.
 
 ## Example usage
 
+```yaml
 uses: venkateswarlu-vajrala/docker-action-1@v1
 with:
-  whom-to-greet: 'Mona the Octocat'@
+  whom-to-greet: 'Mona the Octocat'
+```
