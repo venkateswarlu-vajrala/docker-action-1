@@ -1,5 +1,8 @@
 name: venkyvajrala_greetings
 description: "This action will greet anyone with name"
+branding:
+  icon: 'award'
+  color: 'green'
 inputs:
   whom-to-greet:
     description: "Name of the person to greet"
